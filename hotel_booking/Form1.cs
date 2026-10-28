@@ -48,7 +48,7 @@ namespace hotel_booking
                 isValid = false;
             }
 
-            if (!int.TryParse(textnight.Text, out nights))
+            if (!int.TryParse(textnightg.Text, out nights))
             {
                 MessageBox.Show("Enter a valid number of nights.");
                 isValid = false;
